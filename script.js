@@ -13,12 +13,13 @@ function divide(a, b) {
 
 function calculer(operation, num1, num2) {
     if(operation == add()){
-        return add(a,b)
+        return add(num1, num2)
     } else if(operation == subtract()){
-        return subtract(a, b)
+        return subtract(num1, num2)
     } else if(operation == multiply()){
-        return multiply(a, b)
+        return multiply(num1, num2)
     } else if(operation == divide()){
-        return divide(a, b)
+        return divide(num1, num2)
     }
+    return operation
 }
