@@ -24,6 +24,7 @@ body {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 0.5rem;
+    height: 1.5rem;
 }
 
 .résutat p {
@@ -37,9 +38,6 @@ body {
     height: 2rem;
     font-size: 10px;
 
-}
-
-b {
 }
 
 
